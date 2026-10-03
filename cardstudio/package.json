@@ -1,0 +1,31 @@
+{
+ "name": "card-studio",
+ "version": "0.2.0",
+ "private": true,
+ "engines": {
+  "node": ">=18.17.0"
+ },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+ },
+ "dependencies": {
+  "next": "14.2.15",
+  "react": "18.3.1",
+  "react-dom": "18.3.1",
+  "xlsx": "0.18.5",
+  "jspdf": "2.5.1",
+  "jszip": "3.10.1",
+  "pdfjs-dist": "3.11.174",
+  "paper": "0.12.18",
+  "ag-psd": "^22.0.0",
+  "imagetracerjs": "1.2.6",
+  "qrcode-generator": "1.4.4"
+ },
+ "devDependencies": {
+  "tailwindcss": "3.4.13",
+  "postcss": "8.4.47",
+  "autoprefixer": "10.4.20"
+ }
+}

@@ -1,0 +1,4 @@
+import './globals.css'
+export const metadata={title:'Card Studio'}
+const GF="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lexend:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&family=DM+Sans:wght@400;500;700&family=Work+Sans:wght@400;600;700&family=Oswald:wght@400;500;600&family=Nunito:wght@400;600;700&display=swap"
+export default function L({children}){return <html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/><link rel="stylesheet" href={GF}/></head><body>{children}</body></html>}

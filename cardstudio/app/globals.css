@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html,body{height:100%;margin:0;overflow:hidden;background:#1e1f22;color:#e6e6e6;font-size:13px}
+input{background:#2b2d31;border:1px solid #3c3f45;border-radius:4px;padding:2px 5px;color:inherit;min-width:0}
+button{background:#2b2d31;border:1px solid #3c3f45;border-radius:4px;padding:3px 8px}button:hover{border-color:#4fb3a2}
